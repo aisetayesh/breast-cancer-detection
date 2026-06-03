@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 # %%
 # --- Configuration ---
-DATASET_PATH = "./dataset/cancer (1).csv"
+DATASET_PATH = "../data/cancer (1).csv"
 TARGET_COLUMN = "diagnosis"
 DROP_COLUMN = "id"
 TEST_SIZE = 0.15
